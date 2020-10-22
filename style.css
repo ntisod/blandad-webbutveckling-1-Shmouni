@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to left, 			#d46414 , 		#FFFF00);
+    font-family: sans-serif;
+    margin: 10;
+    width: 97vw;
+    height: 30vh;
+  }
+  
+  
+  div.a {
+    text-align: center;
+  }
+  
+  div.b {
+    text-align: left;
+  }
+  
+  div.c {
+    text-align: right;
+  } 
+  
+  div.d {
+    text-align: justify;
+  } 
+  
+  
+  
