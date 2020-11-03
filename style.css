@@ -5,7 +5,12 @@ body {
     width: 97vw;
     height: 30vh;
   }
-  
+  .bild1 {
+    position: absolute;
+   top: 30px;
+   right: 25px;
+   }
+   
   
   div.a {
     text-align: center;
