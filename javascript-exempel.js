@@ -13,7 +13,7 @@ function färg(){
   }
   function bild() {
     if (document.getElementById("myImage").src == "https://www.dossinet.me/coverage_pics/j17042058f94bda6dae5.jpg"){
-        document.getElementById("undertext").innerHTML = "Black ops cold war, hade en internationell premiärvisning visades 26 augusti 2020.";
+        document.getElementById("undertext").innerHTML = "Black ops cold war, Hade en internationell premiärvisning visades 26 augusti 2020.";
         document.getElementById("myImage").src = "https://varvat.se/wp-content/uploads/2020/08/Black_Ops_Cold_War.jpeg"
     }
     else{
