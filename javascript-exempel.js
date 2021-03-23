@@ -12,12 +12,12 @@ function färg(){
     document.getElementById("body").style.backgroundColor = "green"
   }
   function bild() {
-    if (document.getElementById("myImage").src == "https://www.dossinet.me/coverage_pics/j17042058f94bda6dae5.jpg"){
-        document.getElementById("undertext").innerHTML = "Black ops cold war, Hade en internationell premiärvisning visades 26 augusti 2020.";
-        document.getElementById("myImage").src = "https://varvat.se/wp-content/uploads/2020/08/Black_Ops_Cold_War.jpeg"
+    if (document.getElementById("myImage").src == "https://cdn.discordapp.com/attachments/414475912617263104/823931376394567710/image0.jpg"){
+        document.getElementById("undertext").innerHTML = "27 februari 2021, at 84 kg and not the end.";
+        document.getElementById("myImage").src = "https://cdn.discordapp.com/attachments/414475912617263104/823931451236941844/image0.jpg"
     }
     else{
-        document.getElementById("myImage").src = "https://www.dossinet.me/coverage_pics/j17042058f94bda6dae5.jpg"
-        document.getElementById("undertext").innerHTML = "Black ops 1, Spelet tillkännagavs officiellt den 30 april 2010 och släpptes den 9 november 2010.";
+        document.getElementById("myImage").src = "https://cdn.discordapp.com/attachments/414475912617263104/823931376394567710/image0.jpg"
+        document.getElementById("undertext").innerHTML = "26 maj 2020, at 100 kg the start.";
     }
 }
