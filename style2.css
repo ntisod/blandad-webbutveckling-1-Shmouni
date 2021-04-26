@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+    
+/* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px){
+
+
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    [class*="col-"] {
+        float: left;
+        padding: 15px;
+        border: 1px solid red;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+div.a {
+    text-align: center;
+  }
+  
+  div.b {
+    text-align: left;
+  }
+  
+  div.c {
+    text-align: right;
+  } 
+  
+  div.d {
+    text-align: justify;
+  } 
+
+
+:root{
+    --knapp: #000;
+    --knappöver: #000;
+    --bakgrundliten: #000;
+    --bakgrund: #000;
+    --textfält: #000;
+    /*--text: #290e19;*/
+    --text: white;
+    /*blåt, gult, vitt, grått*/
+}
+
+
+input[type=button] {
+    /*background-color: #4CAF50;*/
+    background-color: var(--knapp);
+    border: none;
+    color: var(--text);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type=button]:hover {
+  /*background-color: #45a049;*/
+  background-color: var(--knappöver);
+}
+
+div {
+  border-radius: 5px;
+  background-color: var(--bakgrundliten);
+  padding: 20px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #59253a;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: var(--textfält);
+  color: var(--text);
+}
+
+body{
+    max-width: 8cm;
+    text-align: center;
+    margin-left: 40%;
+    background-color: var(--bakgrund);
+}
+
+.fadeout {
+  color: black;
+  background-color: var(--bakgrundliten);
+  font-size: medium;
+  font-family: helvetica;
+  text-align: center;
+  opacity: 0;
+    -webkit-animation: fadeout 10s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 10s; /* Firefox < 16 */
+        -ms-animation: fadeout 10s; /* Internet Explorer */
+         -o-animation: fadeout 10s; /* Opera < 12.1 */
+            animation: fadeout 10s;
+}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0; }
+}
+
+#section1 {
+    height: 690px;
+    
+    background-color: var(--bakgrundliten);
+}
+
+#section2 {
+    height: 690px;
+    background-color: var(--bakgrundliten);
+}
+
+#section3 {
+    height: 690px;
+    background-color: var(--bakgrundliten);
+}
+
+a{
+    /*background-color: #4CAF50;*/
+    background-color: var(--knapp);
+    border: none;
+    color: var(--text);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a:hover{
+    /*background-color: #45a049;*/
+    background-color: var(--knappöver);
+}
+
+input{
+    background-color: var(--textfält);
+}
+
+p, label, h1, h2, h3{
+    color: var(--text);
+}
+
+::placeholder{
+    color: var(--text);
+}
