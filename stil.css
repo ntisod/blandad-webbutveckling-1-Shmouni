@@ -52,11 +52,11 @@
         display: table;
     }
 }
-header{
+body{
     background-color: black;
     color: white;
 }
-nav{
+box{
     background-color:green;
     color: white;
     width: 25%;
@@ -83,3 +83,18 @@ aside{
       background-color: lightblue;
     }
 }
+div.a {
+    text-align: center;
+  }
+  
+  div.b {
+    text-align: left;
+  }
+  
+  div.c {
+    text-align: right;
+  } 
+  
+  div.d {
+    text-align: justify;
+  } 
