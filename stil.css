@@ -45,11 +45,14 @@
         padding: 15px;
         border: 1px solid red;
     }
-
+    .row{
+        left: 50%;
+    }
     .row::after {
         content: "";
         clear: both;
         display: table;
+
     }
 }
 body{
@@ -57,24 +60,7 @@ body{
     color: white;
 }
 box{
-    background-color:green;
-    color: white;
-    width: 25%;
-    float: left;
-}
-main{
-    background-color:darkorange;
-    color: white;
-    width: 75%;
-    float: left;
-}
-footer{
-    background-color:blue;
-    color: white;
-    
-}
-aside{
-    background-color:red;
+    background-color: green;
     color: white;
 }
 
@@ -98,3 +84,28 @@ div.a {
   div.d {
     text-align: justify;
   } 
+  .button {
+    /*background-color: #070047;*/
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: linear-gradient(to top, #070047,#00ffe7);
+    animation: animatebutton 20s linear infinite;
+  }
+  @keyframes animatebutton
+{
+    0%,100%
+    {
+        filter: hue-rotate(0deg);
+    }
+    50%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
