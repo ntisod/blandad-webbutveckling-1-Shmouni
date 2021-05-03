@@ -97,9 +97,9 @@ div.a {
   }
   .box {
     transition: box-shadow .3s;
-    width: 300px;
+    width: 280px;
     height: 400px;
-    margin: 50px;
+    margin: 100px;
     border-radius:10px;
     border: 1px solid #ccc;
     background: #fff;
