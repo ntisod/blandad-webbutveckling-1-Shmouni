@@ -1,4 +1,4 @@
-@media screen and (max-width: 615px){
+@media screen and (max-width: 600px){
   body{
     text-align: center;
   }
@@ -104,9 +104,9 @@ div.a {
     transition: box-shadow .3s;
     width: 240px;
     height: 360px;
-    margin: 100px;
+    margin: 80px;
     border-radius:10px;
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     background: #fff;
     float: left;
     text-align: center;
