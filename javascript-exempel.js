@@ -9,7 +9,7 @@ function färg(){
     document.getElementById("stycke2").style.backgroundColor = "lightblue";   
     document.getElementById("stycke").style.color = "black";
     document.getElementById("stycke").style.backgroundColor = "lightblue";   
-    document.getElementById("body").style.backgroundColor = "green"
+    document.getElementById("kropp").style.backgroundColor = "green"
   }
   function bild() {
     if (document.getElementById("myImage").src == "https://cdn.discordapp.com/attachments/414475912617263104/823931376394567710/image0.jpg"){
