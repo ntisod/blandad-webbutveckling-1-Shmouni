@@ -184,3 +184,6 @@ p, label, h1, h2, h3{
 ::placeholder{
     color: var(--text);
 }
+footer{
+    font-size: 20px;
+}
