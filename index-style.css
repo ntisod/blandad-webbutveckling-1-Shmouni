@@ -1,13 +1,12 @@
 @media screen and (max-width: 800px){
   .box{
       transition: box-shadow .3s;
-      width: 240px;
-      height: 360px;
-      margin: 80px;
+      margin: auto;
+      width: 50%;
+      height: 340px;
       border-radius:10px;
       border: 2px solid #ccc;
       background: #fff;
-      float: left;
       text-align: center;
     
     }
@@ -112,11 +111,12 @@ div.a {
       color: purple;
     }
   }
+@media screen and (min-width: 800px){
   .box {
     transition: box-shadow .3s;
     width: 240px;
     height: 360px;
-    margin: 85px;
+    margin: 120px;
     border-radius:10px;
     border: 2px solid #ccc;
     background: #fff;
@@ -126,4 +126,5 @@ div.a {
   }
   .box:hover {
     box-shadow: 0 0 30px rgba(3, 3, 145); 
-  }
+  } 
+}
