@@ -1,6 +1,18 @@
-@media screen and (max-width: 600px){
-  body{
-    text-align: center;
+@media screen and (max-width: 800px){
+  .box{
+      transition: box-shadow .3s;
+      width: 240px;
+      height: 360px;
+      margin: 80px;
+      border-radius:10px;
+      border: 2px solid #ccc;
+      background: #fff;
+      float: left;
+      text-align: center;
+    
+    }
+    .box:hover {
+      box-shadow: 0 0 30px rgba(3, 3, 145); 
   }
 }
 
