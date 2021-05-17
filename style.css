@@ -1,3 +1,9 @@
+@media screen and (max-width: 800px){
+  body{
+      margin: auto;
+      width: 50%;
+  }
+}
 body {
   background: linear-gradient(to left, 			#d46414 , 		#FFFF00);
   font-family: sans-serif;
