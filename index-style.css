@@ -1,4 +1,5 @@
 @media screen and (max-width: 800px){
+  
   .box{
       transition: box-shadow .3s;
       margin: auto;
